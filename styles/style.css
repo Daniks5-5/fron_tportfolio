@@ -1,0 +1,64 @@
+
+*{
+    background-color: #000000;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Manrope&display=swap');
+
+body{
+    font-family: "IBM Plex Mono", monospace; 
+    font-weight: 400;
+}
+
+:root{
+    font-size: 10px;
+}
+/* главный блок */
+.main{
+    display: flex;
+    width: 1153px;
+    margin: 0% auto;
+}
+.text-main-work{
+    margin-top: 252px;
+    margin-bottom: 29px;
+    width: 430px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+.text-main-about-us{
+    width: 586px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 5em;
+line-height: 146%;
+letter-spacing: -0.03em;
+color: #808080;
+background-repeat: no-repeat;
+
+}
+/* псевдо блок с изображением*/
+.main-image{
+    content: '';
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    margin-top: 37px;
+    margin-left: 125px;
+    width: 446px;
+    height: 519px;
+    background: #3c3c3c;
+}
+.image-main{
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    top:13px;
+    width: 425px;
+    height: 528px;
+}
+
+
