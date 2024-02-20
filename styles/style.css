@@ -1,6 +1,6 @@
 
 *{
-    background-color: #000000;
+    
     box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Manrope&display=swap');
@@ -8,10 +8,43 @@
 body{
     font-family: "IBM Plex Mono", monospace; 
     font-weight: 400;
+    background-color: #000000;
 }
 
 :root{
     font-size: 10px;
+}
+.menu{
+    display: flex;
+    width: 1153px;
+    height: 55px;
+    margin: 0% auto;
+    margin-top: 27px;
+    justify-content: space-between;
+
+}
+.main-logo{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 4em;
+letter-spacing: -0.11em;
+text-transform: uppercase;
+color: #808080;
+}
+.text-menu-main{
+    margin-top: 27px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+letter-spacing: -0.03em;
+color: #fff;
+text-decoration: none;
+margin-right: 50px; 
+transition: all 1s ease;  
+}
+.text-menu-main:hover{
+    color: #8C2727;
+    transition: all 1s ease;
 }
 /* главный блок */
 .main{
@@ -38,7 +71,11 @@ line-height: 146%;
 letter-spacing: -0.03em;
 color: #808080;
 background-repeat: no-repeat;
-
+transition: all 1s ease;
+}
+.text-main-about-us:hover{
+    color: #8C2727;
+    transition: all 1s ease;
 }
 /* псевдо блок с изображением*/
 .main-image{
@@ -60,5 +97,85 @@ background-repeat: no-repeat;
     width: 425px;
     height: 528px;
 }
+/* проекты*/
+.projects{
+    width: 1155px;
+    margin: 0% auto;
+}
+.projects-main-text{
+    margin-top: 244px;
+    width: 1048px;
+    height: 72px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 5em;
+    letter-spacing: -0.03em;
+    color: #fff;
+    margin-bottom: 98px;
+}
+.image-projects{
+    margin: 0% auto;
+    border-radius: 30px;
+width: 1150px;
+height: 653px;
+    background-image: url(../resources/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.metrika{
+    position: absolute;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 35px;
+letter-spacing: -0.03em;
+color: #fff;
+left:90px;
+bottom: 48px;
+}
+.verstka{
+    position: absolute;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 30px;
+letter-spacing: -0.03em;
+color: #fff;
+left:90px;
+bottom: 4px;
+}
+/* ссылка на все проекты */
+.projects-main-link{
+    width:1150px;
+    margin: 0% auto;
 
-
+}
+.projects-link{
+    border-radius: 10px;
+width: 582px;
+height: 153px;
+background: #1bff07;
+margin-top: 80px;
+position: relative;
+transition: all 1s ease;
+}
+.pojects-link-bottom{
+    position: absolute;
+    top:56px;
+    left:86px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 30px;
+letter-spacing: -0.03em;
+text-align: center;
+color: #000;
+text-decoration: none;
+transition: all 1s ease;
+}
+.projects-link:hover{
+    background: #8C2727;
+    transition: all 1s ease;
+}
+.pojects-link-bottom:hover{
+    color: #fff;
+    transition: all 1s ease;
+}
