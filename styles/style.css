@@ -144,9 +144,14 @@ left:90px;
 bottom: 4px;
 }
 /* ссылка на все проекты */
+.porjects-main{
+    width: 1150px;
+    margin: 0% auto;
+    margin-bottom: 150px;
+}
 .projects-main-link{
     width:1150px;
-    margin: 0% auto;
+
 
 }
 .projects-link{
@@ -178,4 +183,49 @@ transition: all 1s ease;
 .pojects-link-bottom:hover{
     color: #fff;
     transition: all 1s ease;
+}
+/* блок с компетецией   */
+.competeshion{
+    width: 1150px;
+    margin: 0% auto;
+}
+.main-text-compt{
+    width: 1048px;
+    position: relative;
+    margin-bottom: 48px;
+}
+.compt-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 55px;
+letter-spacing: -0.03em;
+color: #fff;
+
+
+}
+.icon-html{
+width: 45px;
+height: 44px;
+margin-top: 48px;
+}
+
+.html{
+    margin-top: 12px;
+   width: 1048px;
+}
+.html-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 35px;
+letter-spacing: -0.03em;
+color: #1bff07;
+}
+.text-about-html{
+    margin-top: 15px;
+    width: 778px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 22px;
+letter-spacing: -0.03em;
+color: #fff;
 }
