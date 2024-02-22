@@ -297,3 +297,42 @@ font-size: 22px;
 letter-spacing: -0.03em;
 color: #fff;
 }
+/* блок контактов */
+.contacts{
+    width: 100%;
+    height: 717px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #191C19;
+    margin-bottom: 150px;
+}
+.my-contacts{
+    position: absolute;
+    width: 310px;
+    left:545px;
+    bottom: 200px;
+}
+.contacts-text{
+
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 35px;
+line-height: 171%;
+letter-spacing: -0.03em;
+color: #fff;
+margin-bottom: 29px;
+}
+.contacts-link{
+    display: flex;
+    display: block;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: -0.03em;
+color: #fff;
+text-decoration: none;
+margin-top: 20px;
+}
